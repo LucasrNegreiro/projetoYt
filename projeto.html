@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">DevClub Store</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="images/apple-watch.png" alt="apple-watch imagem">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <h1 class="product-name">Apple Watch Series 10</h1>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptates
+                        reiciendis voluptatibus temporibus assumenda. Sunt, debitis. Esse odit obcaecati voluptate totam
+                        similique impedit reiciendis harum maiores? Nostrum animi cum quia!</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="product-img">
+                    <img src="images/air-pods.png" alt="air-pods imagem">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Som Premium</p>
+                    <h1 class="product-name">Air Pods Max</h1>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, deserunt,
+                        autem, dolorem amet repudiandae molestias omnis inventore corrupti vel similique tempore
+                        delectus reiciendis modi. Veritatis dignissimos aliquid iste modi soluta.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product-img">
+                    <img src="images/vision-pro.png" alt="vision-pro imagem">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Alta Performance</p>
+                    <h1 class="product-name">Vision Pro</h1>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius voluptate
+                        reiciendis perspiciatis cupiditate ducimus doloremque cum ea tempore vitae amet voluptatem qui,
+                        id earum hic et atque? Doloribus, soluta!</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </button>
+        </div>
+        <div class="indicators">
+            <div class="numbers"></div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
